@@ -1,0 +1,5 @@
+docker status checker started ..........
+ inactive 
+the service docker is down 
+Failed to start docker.service: Interactive authentication required.
+See system logs and 'systemctl status docker.service' for details.
