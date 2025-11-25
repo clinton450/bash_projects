@@ -14,7 +14,7 @@ if [ status = "active" ];  then
 else
 
 	echo "the service docker is down "
-	systemctl start  docker
+        sudo systemctl start  docker
 
 fi
 
