@@ -53,6 +53,7 @@ check_process() {
   else
     echo "$SERVICE: Not running — Restarting..." >> $logs
     sudo systemctl start $SERVICE
+    sudo  status ssh
  fi
 }
 
